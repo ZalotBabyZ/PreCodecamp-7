@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002 HTML structure</title>
+</head>
+<body>
+    <h1>002 HTML structure</h1>
+    <hr>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <p style="color:brown;">headling &lt;h1&gt; content &lt;/h1&gt; h1-h6</p>
+    <hr>
+
+    <p style="color:brown;">
+        empty element
+        <br>horizontal line &lt;hr&gt; 
+        <br> new line  &lt;br&gt; 
+        </p>
+    <hr>
+
+    <p>This is paragraph</p>
+    <p style="color:brown;">paragraph &lt;p&gt; content &lt;/p&gt; </p>
+    <hr>
+
+    <a href="https://www.google.com"><button> Button: google GO! </button> </a><br>
+    <a href="./link.html">Link to another HTML file</a><br>
+    <a href="../index.html">Link to index.html in parent directory</a><br>
+    <a href="https://www.google.com/maps"><img src="https://www.nist.ac.th/wp-content/uploads/2014/10/Map-Icon.png" alt="checkin" width="30"></a>
+    <span style="color:red;">picture as link &lt;img&gt; in content</span>
+    <p style="color:brown;">link &lt;a href="link to file or url"&gt; content to click &lt;/a&gt; content can be text pic button etc</p>
+    <hr>
+
+    <img src="https://static3.depositphotos.com/1000419/135/v/950/depositphotos_1356150-stock-illustration-black-cat-silhouette-for-your.jpg" alt="cat" height="250">
+    <p style="color:brown;">image &lt;img src="picture source" alt="alternative text"&gt; empty element; source can be path to file or url</p>
+    <hr>
+
+    <button>click</button>
+    <p style="color:brown;">link &lt;button&gt; content &lt;/button&gt; content = what to show on button</p>
+    <hr>
+
+    <ul> unordered list
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+    </ul>
+    
+    <ol> ordered list
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+    </ol>
+    <p style="color:brown;">unordered list<br> &lt;ul&gt;<br> &lt;li&gt; content1 &lt;/li&gt;<br> &lt;li&gt; content2 &lt;/li&gt;<br> &lt;/ul&gt;<br> ordered list change "ul" to "ol"</p>
+    <hr>
+
+    <div>Content div</div><div>Content div</div><div>Content div</div>
+    <div style="color:brown;">&lt;div&gt; content &lt;/div&gt; block level</div>
+    <span>Content span </span><span>Conten span </span><span>Content span </span>
+    <div style="color:brown;">&lt;span&gt; content &lt;/span&gt; inline level</div>
+    <hr>
+
+    <table>
+        <thead> <span  style="color:red;"> "This content type after &lt;thead&gt;" </span>
+            <tr> <span  style="color:red;"> "This content type after &lt;tr&gt; in thead" </span>
+
+                <th>Head of Table </th>
+                <th>Head of Table </th>
+                <th>Head of Table </th>
+                <th>Head of Table </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <span  style="color:red;"> "This content type after &lt;tr&gt; in tbody" </span>
+
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td style="color:red;">"+1 &lt;td&gt; tag"</td>
+            </tr>
+            <tr>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+            </tr>
+            <tr>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+            </tr>
+            <tr>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+                <td>content in table</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="color:brown;">table element <br>
+        &lt;table&gt;<br>
+        &nbsp;&nbsp;&lt;thead&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; head column1 &lt;/th&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; head column2 &lt;/th&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+        &nbsp;&nbsp;&lt;/thead&gt;<br>
+        &nbsp;&nbsp;&lt;tbody&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; row1 column1 &lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; row1 column2 &lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; row2 column1 &lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; row2 column2 &lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+        &nbsp;&nbsp;&lt;/tbody&gt;<br>
+        &lt;/table&gt;<br> 
+    </p>
+    <hr>
+
+    <p>In visual code studio <span  style="color:red;">"ctrl"</span> + <span  style="color:red;">"/" </span> change element to comment or change back
+    <div>&lt;!-- <span style="color:orangered;">comment here</span> --&gt; </div></p>
+    <!-- <p>Try this</p> -->
+    <hr>
+
+    <form action="">
+        <input type="text"><span  style="color:red;">&lt;input type="text"&gt;</span><br>
+        <input type="checkbox"><span  style="color:red;">&lt;input type="checkbox"&gt;</span><br>
+        <input type="time"><span  style="color:red;">&lt;input type="time"&gt;</span><br>
+        <input type="image"><span  style="color:red;">&lt;input type="imaage"&gt;</span><br>
+        <input type="email"><span  style="color:red;">&lt;input type="email"&gt;</span><br>
+        <input type="password"><span  style="color:red;">&lt;input type="password"&gt;</span>
+    </form>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, cupiditate.</p>
+</body>
+</html>

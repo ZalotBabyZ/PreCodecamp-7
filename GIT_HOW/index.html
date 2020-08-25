@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>001 เรียนรู้การใช้ git</title>
+        <style type="text/css">
+            span { color: rgb(13, 122, 59);}
+          </style>
+    </head>
+    <body>
+        <h1> 001 Git เรียนรู้การใช้ git </h1>
+        <p> <span>git init</span> สร้าง.git folder</p>
+        <p> <span>git add .</span> เพิ่มfileเป็นสถานะ stage .คือการเอาทั้งหมดในdirectory</p>
+        <p> <span>git config --global user.email "you@example.com" </span> set account's default identity <br>
+        <span>git config --global user.name "Your Name"</span></p>
+        <p> <span>git commit -m "first commit"</span> commit file พร้อม messsage ใน""</p>
+        <p> <span>git remote add origin https://github.com/ZalotBabyZ/PreCodecamp-7.git</span> เชื่อมต่อกับ repository</p>
+        <p> <span>git status</span> check ตน.</p>
+        <p> <span>git push -u origin master</span> push พร้อมระบุตำแหน่งที่จะuploadขึ้นไปบนrepository <br>
+        <span>git push</span> รู้ตำแหน่งที่จะpushไปแล้ว ไม่ต้องระบุใหม่</p>
+        <p><span>git add .</span> -> <span>git commit -m "message"</span> ถ้าไม่มีการเปลี่ยนแปลงใดจะcommitไม่ได้ -> <span>git push</span></p>
+        <p style="color: #CE062E;">เราสามารถปิด terminal แล้วpush ผ่าน source control ใส่ message กด commit เลือก always <br> อย่าลืม saveก่อนไม่งั้น commit ไม่ได้นะ </p>
+    </body>
+</html>
